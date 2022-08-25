@@ -3,4 +3,9 @@ module.exports = function(api) {
   return {
     presets: ['babel-preset-expo'],
   };
+  module.exports = {
+    output: {
+        hashFunction: "xxhash64"
+    }
+};
 };
